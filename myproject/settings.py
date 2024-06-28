@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'chat-123-b5f27fe98cab.herokuapp.com',
-    # thêm các tên miền khác nếu cần
 ]
 
 
@@ -127,4 +126,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import django_heroku
 django_heroku.settings(locals())
-# successful
+# successful Heroku
