@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-bskiy_$%av+=5^!t!04fv21t%=%@fuyql@eg*er5x-#(w5l(r+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://chat-123-b5f27fe98cab.herokuapp.com/']
+ALLOWED_HOSTS = [
+    'chat-123-b5f27fe98cab.herokuapp.com',
+    # thêm các tên miền khác nếu cần
+]
+
 
 
 # Application definition
